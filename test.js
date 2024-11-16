@@ -1,6 +1,6 @@
 
 const accountId = 34343
-let employeeName = "Ankit"
+// let employeeName = "Ankit"
 var employeeGender = "Male"
 let accountState
 
@@ -33,7 +33,7 @@ const Marks = null
 
 const MyScore = ["Physics","Chemistry","Biology"]
 
-console.log(typeof MyScore);
+// console.log(typeof MyScore);
 
 let Score = {
     Name : "hitesh",
@@ -41,16 +41,55 @@ let Score = {
  }
 
 
-console.log(typeof Score);
+// console.log(typeof Score);
 
 const MyFunction = function(){
     console.log("Hello World");
 }
 
-console.log(typeof MyFunction);
-console.log(typeof Marks);
+// console.log(typeof MyFunction);
+// console.log(typeof Marks);
+
+// const id = Symbol('123')
+// console.log(id);
 
 
+// null return type is object
+
+// const bigNumber = 455223245465n
+// console.log(typeof bigNumber);
+
+const UserOne = {
+    name:"Hitesh",
+    email:"ankitkachad@gmail.com",
+}
+
+
+const UserTwo = {
+    name:"Ankit",
+    email:"ankitsoma005@gmail.com",
+}
+
+// Stack (Primitive) Heap(Non Primitive)  
+
+UserTwo.email= "ankitsecond@gmail.com"
+UserOne.email=UserTwo.email
+
+// console.log(UserOne.email);
+// console.log(UserTwo.email);
+
+const gameName = new String('   Ankit-BCA')
+
+const repo = "Ankit"
+const stream = "BCA"
+
+console.log(`Hello My Name is ${repo} Currently I am in ${stream}`);
+
+
+console.log(gameName.trim());
+console.log(gameName.replace('BCA','msc'));
+console.log(gameName.split('-'));
+console.log(gameName.toLowerCase());
 
 
 
