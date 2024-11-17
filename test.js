@@ -83,13 +83,39 @@ const gameName = new String('   Ankit-BCA')
 const repo = "Ankit"
 const stream = "BCA"
 
-console.log(`Hello My Name is ${repo} Currently I am in ${stream}`);
+// console.log(`Hello My Name is ${repo} Currently I am in ${stream}`);
 
 
-console.log(gameName.trim());
-console.log(gameName.replace('BCA','msc'));
-console.log(gameName.split('-'));
-console.log(gameName.toLowerCase());
+// console.log(gameName.trim());
+// console.log(gameName.replace('BCA','msc'));
+// console.log(gameName.split('-'));
+// console.log(gameName.toLowerCase());
+
+const maths = new Number(1000000)
+console.log(maths);
+
+console.log(maths.toString().length); 
+console.log(maths.toFixed(2));
+console.log(maths.toLocaleString('en-IN'));
+
+console.log(Math.abs(-5));
+console.log(Math.round(5.567));
+console.log(Math.ceil(5.567));
+console.log(Math.floor(5.567));
+console.log(Math.min(5,4,6,2));
+console.log(Math.random());
+
+const min = 10
+const max = 20
+
+console.log(Math.floor(Math.random() * (max-min+1) + min));
+
+
+
+
+
+
+
 
 
 
