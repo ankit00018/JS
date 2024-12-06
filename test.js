@@ -35,7 +35,7 @@ const MyScore = ["Physics","Chemistry","Biology"]
 
 // console.log(typeof MyScore);
 
-let Score = {
+let Score = { 
     Name : "hitesh",
     age : 20,
  }
@@ -92,26 +92,33 @@ const stream = "BCA"
 // console.log(gameName.toLowerCase());
 
 const maths = new Number(1000000)
-console.log(maths);
+// console.log(maths);
 
-console.log(maths.toString().length); 
-console.log(maths.toFixed(2));
-console.log(maths.toLocaleString('en-IN'));
+// console.log(maths.toString().length); 
+// console.log(maths.toFixed(2));
+// console.log(maths.toLocaleString('en-IN'));
 
-console.log(Math.abs(-5));
-console.log(Math.round(5.567));
-console.log(Math.ceil(5.567));
-console.log(Math.floor(5.567));
-console.log(Math.min(5,4,6,2));
-console.log(Math.random());
+// console.log(Math.abs(-5));
+// console.log(Math.round(5.567));
+// console.log(Math.ceil(5.567));
+// console.log(Math.floor(5.567));
+// console.log(Math.min(5,4,6,2));
+// console.log(Math.random());
 
-const min = 10
-const max = 20
+// const min = 10
+// const max = 20
 
-console.log(Math.floor(Math.random() * (max-min+1) + min));
+// console.log(Math.floor(Math.random() * (max-min+1) + min));
+
+let myDate = new Date()
+// console.log(myDate.toLocaleString());
+
+let newDate = new Date()
+console.log(newDate.getFullYear());
 
 
-
+let otherDate = new Date("12-21-2034")
+console.log(otherDate.toLocaleString());
 
 
 
