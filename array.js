@@ -45,7 +45,6 @@ const real_array = another_array.flat(Infinity)
 // console.log(real_array);
 
 // console.log(Array.isArray("Ankit"));
-// console.log(Array.isArray("Ankit"));
 // console.log(Array.from("Ankit"));  // convert string to array 
 // console.log(Array.from({name: "Ankit"})); // convert object to array but return empty array because we have to tell what value we want to convert key or value
 
