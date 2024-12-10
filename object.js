@@ -34,6 +34,7 @@ JSuser.welcomeTwo = function(){
 // console.log(JSuser.welcome());
 // console.log(JSuser.welcomeTwo());
 
+
 // object part 2 
 // singlton 
 
@@ -64,7 +65,7 @@ const math = {5: "e", 6: "f"}
 
 // const total = {chem, phy}
 
-const total = Object.assign({}, chem, phy, math) // also using spread operator 
+const total = Object.assign({}, chem, phy, math) // also use spread operator 
 // console.log(total);
 
 const users = [
@@ -82,11 +83,35 @@ const users = [
     },
 ]
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
 // console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+
+
+// Json talk 
+
+const course = {
+    name : "Stop Overthinking",
+    price : "799",
+    Teacher : "Ankit Kachhad"
+}
+
+// course.Teacher
+
+const {Teacher: sir} = course // if you do this then you do not have to use .dot for object 
+// console.log(Teacher);
+// console.log(sir)
+
+
+// json demo 
+
+// {
+//     "name" : "Ankit",
+//     "coursename" : "Stop Overthinking",
+// }
+
 
 
 

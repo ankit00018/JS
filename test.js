@@ -114,15 +114,8 @@ let myDate = new Date()
 // console.log(myDate.toLocaleString());
 
 let newDate = new Date()
-console.log(newDate.getFullYear());
+// console.log(newDate.getFullYear());
 
 
 let otherDate = new Date("12-21-2034")
-console.log(otherDate.toLocaleString());
-
-
-
-
-
-
-
+// console.log(otherDate.toLocaleString());
