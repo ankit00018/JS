@@ -1,4 +1,3 @@
-const user = {
-    username: "ankit",
-    price : 200
-}
+function chai(){
+//     console.log(this);  
+// }
