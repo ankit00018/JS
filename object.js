@@ -124,4 +124,3 @@ const {Teacher: sir} = course // if you do this then you do not have to use .dot
 
 
 
-
