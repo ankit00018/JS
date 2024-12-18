@@ -51,6 +51,8 @@ function returnSecValue(getarray){
 // console.log( returnSecValue(myArray));
 console.log(returnSecValue([100,200,300,400]));
 
+
+
 //////  this and arrow function
 
 
@@ -106,3 +108,16 @@ const chai = () => {                 // Arrow Function
 const addVal = (num1,num2) =>({username:"ankit"}) // for object return you have to write in ()
 
 console.log(addVal(3,7));
+
+
+
+
+// IIFE Function : Avoiding Global Scope Pollution   
+
+(function coffee(){
+    console.log(`DB Connected`);
+})();                                                 // after every IIFE function close by ;
+
+( (name)=>{
+    console.log(`${name},DB Connected Two`);
+} )("Ankit")
