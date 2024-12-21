@@ -1,3 +1,1 @@
-function chai(){
-//     console.log(this);  
-// }
+`${key} shortcut is for ${myLang[key]}`);
