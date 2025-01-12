@@ -1,1 +1,1 @@
-`${key} shortcut is for ${myLang[key]}`);
+5638756
