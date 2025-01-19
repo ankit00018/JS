@@ -112,6 +112,37 @@ const {Teacher: sir} = course // if you do this then you do not have to use .dot
 //     "coursename" : "Stop Overthinking",
 // }
 
+// function multipleBy (num){
+//     return num*5
+// }
+
+// multipleBy.power = 2
+// console.log(multipleBy(5));
+// console.log(multipleBy.power);
+// console.log(multipleBy.prototype);
+
+function createUser (username, score){
+    this.username=username
+    this.score=score
+}
+
+createUser.prototype.increment = function(){
+    this.score++
+}
+
+createUser.prototype.printMe = function(){
+    console.log(`${this.score}`);
+}
+
+const chai = new createUser("ankit", 56)
+const tea = new createUser("Heman",78)
+
+// chai.increment()
+chai.printMe()
+
+
+
+
 
 
 
